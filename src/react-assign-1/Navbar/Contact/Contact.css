@@ -1,0 +1,41 @@
+.contact-main{
+    height: 100vh;
+    width: 100vw;
+    /* border: 1px solid black; */
+    display: flex;
+    position:absolute;
+    top:405%;
+}
+.contact-sub1{
+    height: 100vh;
+    width: 36vw;
+    background-color: mediumvioletred;
+}
+.contact-sub1 h1{
+    color:white;
+  
+}
+.contact-sub2{
+    height: 50vh;
+    width:64vw;
+    background-color: grey;
+    position: absolute;
+    top:30%;
+    left: 36%;
+}
+.contact-sub2 h1{
+    color: white;
+}
+
+@media screen and (max-width:500px){
+    .contact-sub1{
+        display: none;
+    }
+    .contact-sub2{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top:0%;
+        left: 0%;
+    }
+}
