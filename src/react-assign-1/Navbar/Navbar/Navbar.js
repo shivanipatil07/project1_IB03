@@ -2,9 +2,9 @@ import React from 'react'
 import  './Navbar.css'
 import { useRef } from 'react';
 import { FaBars, FaTimes } from "react-icons/fa"
+import image from '../assets/office1.jpg';
 
-
- function Navbar() {
+function Navbar() {
   const navRef = useRef();
 
   const showNavbar = () => {
@@ -17,11 +17,10 @@ import { FaBars, FaTimes } from "react-icons/fa"
     
     <div>
   <div className='land-page'>
-        <div className='text'>
-          <h1>land-page</h1>
-       
+          <img src={image} alt=""/>
+          
         </div>
-     </div>
+    
      
      <header>
 			<h3>Website</h3>

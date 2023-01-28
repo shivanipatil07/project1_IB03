@@ -27,6 +27,7 @@ header {
 	color: black;
 	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(226, 123, 123, 0.3) 0px 30px 60px -30px, rgba(41, 129, 216, 0.35) 0px -2px 6px 0px inset;
 	font-weight: bold;
+	
 }
 
 nav a {
@@ -58,13 +59,18 @@ nav {
 	align-items: center;
 }
 .land-page{
-    width:90vw;
-    height: 80vh;
-    background-color: rgb(153, 177, 238);
+    min-width:100vw;
+    height: 100vh;
     position: absolute;
-    top: 20%;
-    left: 5%;
+    top: 10%;
     /* right: 4%; */
+}
+.land-page img{
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    
 }
 /* .text{
     position: absolute;
@@ -109,6 +115,18 @@ nav {
 	nav a {
 		font-size: 1.5rem;
 		color: white;
+	}
+	.land-page{
+		width:100vw;
+		height: 100vh;
+		position: absolute;
+		top: 10%;
+	}
+	.land-page img{
+		height:80%;
+		width: 100%;
+		background-size: cover;
+		background-repeat: no-repeat;
 	}
 }
 
