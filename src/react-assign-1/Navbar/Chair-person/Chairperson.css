@@ -10,38 +10,91 @@
     height: 80vh;
     width: 80vw;
     background-color: sandybrown;
+    opacity: 0.9;
     position: absolute;
     top:10%;
-    left: 10%;
+    left:10%;
 }
 .chair-img{
     height: 60vh;
     width: 30vw;
     background-color: maroon;
-    position: absolute;
-    top:18%;
+    position: relative;
+    top:15%;
     left: 5%;
     border-radius: 5%;
+   
+    
 }
-.chair-img h1{
-    color:white;
+.chair-img img{
+    height: 60vh;
+    width: 30vw;
+    /*color:white;
     position: absolute;
     top:40%;
-    left: 20%;
+    left: 20%;*/
+   
 }
+/*===============icon========================*/
 .social-icon{
-    height: 5vh;
-    width: 15vw;
+    height:5vh;
+    width:5vw;
     background-color: bisque;
+    border:2px solid royalblue;
+    border-radius:12px;
     position: absolute;
-    top:5%;
-    left: 44%;
+    top:2%;
+    left: 80%;
 }
 .social-icon h3{
-    position: absolute;
-    top:5%;
-    left: 30%;
+    width:27px;
+    height:27px;
+    color:blue;
+    font-size:23px;
+    border-radius: 50%;
+    position: relative;
+    left:16px;
 }
+.social-icon h3:hover{
+    color: black;
+}
+.container{
+    height: 30px;
+    width: 80px;
+    position: relative;
+    text-align: center;
+    line-height: 30px;
+    font-size:20px;
+    cursor: pointer;
+    transition: 0.8s;
+    
+}
+.dropdown{
+    height: auto;
+    width:5vw;
+    position: absolute;
+    left:16px;
+    padding:12px;
+    display: none;
+   
+   
+}
+a{
+    display:flex;
+    padding-left: 5px;
+    font-size:20px;
+    color: blue;
+}
+a:hover{
+    color: black;
+}
+.container:hover >.dropdown{
+    display:block;
+    transform: translate(0,-5px);
+   
+}
+/*--------------------------chair person-----------*/
+
 .chair-person{
     height: 70vh;
     width: 40vw;
@@ -51,53 +104,56 @@
     top: 5%;
 }
 .chair-person h1{
+    font-size:3rem;
     position: absolute;
     top:10%;
     /* left: 30%; */
 }
 .chair-person h2{
+    font-size: 2rem;
     position: absolute;
-    top:30%;
+    top:22%;
     color:maroon;
     
 }
 .chair-person p{
     position: absolute;
-    top:50%;
-    /* text-align: center; */
+    top:30%;
+    font-size:17px;
+   
+     
 }
+/*------------------------media------------*/
 
 @media screen and (max-width:500px){
-    .chair-main{
-        height: 100%;
-        width: 100%;
-        background-color: sandybrown;
-        position: absolute;
-        top:0%;
-        left: 0%;
-    }
-    .chair-img{
-        height: 50%;
-        width: 95%;
-        background-color: maroon;
-        position: absolute;
-        top:2%;
-        left: 2%;
-        border-radius: 5%;
+.chair-main{
+    height:100%;
+    width:100%;
+    background-color: sandybrown;
+    position:absolute;
+    top:0%;
+    left:0%;
+}
+.chair-img{
+    height: 50%;
+    width: 95%;
+    background-color: maroon;
+    position: absolute;
+    top:2%;
+    left:2%;
+    border-radius: 5%;
+}
+    .chair-img img{
+        height:50vh;
+        width:95vw;
     }
     .social-icon{
-        height: 5vh;
-        width: 40%;
+        height:4vh;
+        width:20%;
         background-color: bisque;
         position: absolute;
-        top:5%;
-        left: 44%;
-    }
-    .social-icon h3{
-        position: absolute;
-        top:8%;
-        left: 25%;
-        font-size: large;
+        top:2%;
+        left:70%;
     }
     .chair-person{
         height: 48%;
@@ -110,27 +166,33 @@
     .chair-person h1{
         position: absolute;
         top:2%;
-        font-size:x-large;    
+        left:28%;
+        font-size:2rem;
+    
     }
     .chair-person h2{
         position: absolute;
         top:12%;
+        left:32%;
         color:maroon;
-        font-size: large;
+        font-size:1.5rem;
+        text-align: center;
     }
     .chair-person p{
-        text-align: center;
+        text-align:left;
         position: absolute;
         top:25%;
-        font-size: small;
+        
+    }
+    a{
+    display:block;
+    color: black;
+    }
+    a:hover{
+        color:royalblue;
     }
     
+    
 }
-@media screen and (min-width:500px){
-    .chair-person p{
-        text-align: center;
-        position: absolute;
-        top:40%;
-        font-size: small;
-    }
-}
+    
+
