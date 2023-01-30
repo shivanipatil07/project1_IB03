@@ -2,6 +2,7 @@
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js';
+// import { IconName } from "react-icons/ai";
 // import LandPage from './Practice/LandPage';
 
 
@@ -21,6 +22,7 @@ function App() {
    
     <Navbar/>
     <Headline/>
+ 
     <Gallery/>
     <Chairperson/>
     <Contact/>
