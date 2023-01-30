@@ -2,8 +2,7 @@ import React from 'react'
 import  './Navbar.css'
 import { useRef } from 'react';
 import { FaBars, FaTimes } from "react-icons/fa"
-import image from '../assets/office1.jpg';
-
+import image from '../../Assets/office1.jpg';
 function Navbar() {
   const navRef = useRef();
 

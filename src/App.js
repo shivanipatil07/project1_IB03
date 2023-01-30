@@ -5,12 +5,11 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 // import LandPage from './Practice/LandPage';
 
 
-
-import Headline from './react-assign-1/Navbar/Headline/Headline';
-import Gallery from './react-assign-1/Navbar/Gallery/Gallery';
-import Chairperson from './react-assign-1/Navbar/Chair-person/Chairperson';
-import Contact from './react-assign-1/Navbar/Contact/Contact';
-import Navbar from './react-assign-1/Navbar/Navbar/Navbar';
+import Headline from './Components/Headline/Headline'
+import Gallery from './Components/Gallery/Gallery'
+import Chairperson from './Components/Chair-person/Chairperson'
+import Contact from './Components/Contact/Contact'
+import Navbar from './Components/Navbar/Navbar'
 
 
 
