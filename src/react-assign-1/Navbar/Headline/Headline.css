@@ -1,7 +1,7 @@
 .head{
     height: 100vh;
     width: 100vw;
-    background-color: antiquewhite;
+    background-color: rgb(250, 235, 215);
     display: flex;
     position: absolute;
     top: 100%;
@@ -9,6 +9,7 @@
 .div-1 {
     height: 90%;
     width: 90%;
+    padding: 20px 40px;
     /* border: 1px solid black; */
     position: relative;
 }
@@ -21,7 +22,10 @@
 .img-1{
     height: 30vh;
     width: 15vw;
-    background-color: maroon;
+    /* background-color: maroon; */
+    background-image:url(../assets/Himh-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
     top:5%;
     left: 2%;
@@ -29,15 +33,23 @@
 .img-2{
     height: 40vh;
     width: 15vw;
-    background-color: purple;
+    /* background-color: purple; */
+    background-image: url(../assets/Himg-1.jpg);
+  background-repeat: no-repeat;
+    background-size: cover;
+
     position: absolute;
     top: 30%;
-    left: 30%;
+    left: 31%;
 }
 .img-3{
     height: 30vh;
     width: 15vw;
-    background-color: maroon;
+    /* background-color: maroon; */
+    background-image:url(../assets/Himg1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
     position: absolute;
     left: 60%;
     top: 65%;
@@ -53,7 +65,7 @@
     font-size: 2.2em;
     text-align: center;
     position: absolute;
-    top: 60px;
+    top: 75px;
     /* position: absolute; */
     /* left: 50%; */
  } 
@@ -66,7 +78,7 @@
    } */
     .div-2 p{
      position: absolute;
-     top: 50%;
+     top: 150px;
      font-size: 1.5em;
      /* font-weight: 10%; */
      text-align:start;
@@ -80,9 +92,9 @@
      height: 7vh;
      border: none;
      position: absolute;
-     top: 78%;
+     top: 60%;
      left: 0%;
-     background-color: royalblue;
+     background-color:#F64c72;
      color: white;
      border-radius: 4px;
      /* text-align: center; */
@@ -92,9 +104,9 @@
   }
 
 .bton:hover{
-    border: 2px solid royalblue;
+    border: 2px solid #F64c72;
     background-color: white;
-    color: royalblue;
+    color :#F64c72;
 }
     
 

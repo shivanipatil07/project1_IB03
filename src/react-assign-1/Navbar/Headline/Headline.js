@@ -9,15 +9,15 @@ export default function Headline() {
 
       <div className='div-1'>
         <div className='img-1'>
-          <h1>img-1</h1>
+          <h1></h1>
         </div>
 
         <div className='img-3'>
-          <h1>img-3</h1>
+          <h1></h1>
         </div>
 
         <div className='img-2'>
-          <h1>img-2</h1>
+          <h1></h1>
         </div>
 
       </div>
