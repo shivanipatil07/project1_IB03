@@ -1,7 +1,7 @@
 import React from 'react'
 import './Chairperson.css'
 import {FaLinkedinIn, FaInstagram,FaTwitter, FaWhatsapp} from "react-icons/fa";
-import chair from'../assets/chair-person-img.png'
+import chair from'../../Assets/chair-person-img.png'
 
 
 export default function Chairperson() {

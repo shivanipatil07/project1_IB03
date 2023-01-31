@@ -1,10 +1,10 @@
 import React from 'react'
 import './Gallery.css'
-import galimg1 from '../assets/gallary-1.jpg'
-import galimg2 from '../assets/gallary-2.jpg'
-import galimg3 from '../assets/gallary-3.jpg'
-import galimg4 from '../assets/gallary-4.jpg'
-import galimg5 from '../assets/gallary-5.jpg'
+import galimg1 from '../../Assets/gallary-1.jpg'
+import galimg2 from '../../Assets/gallary-2.jpg'
+import galimg3 from '../../Assets/gallary-3.jpg'
+import galimg4 from '../../Assets/gallary-4.jpg'
+import galimg5 from '../../Assets/gallary-5.jpg'
 
 export default function Gallery() {
   return (
