@@ -10,13 +10,13 @@
     height: 90%;
     width: 90%;
     padding: 20px 40px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     position: relative;
 }
 .div-2{
     width: 10vw;
     height: 90%;
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
     position: relative;
 }
 .img-1 img{
@@ -30,7 +30,7 @@
 .img-1 {
     width: 18vw;
     height: 35vh;
-    border: 3px solid darkblue;
+    /* border: 3px solid darkblue; */
    position: absolute;
     top: 2%;
     left: 3%;
@@ -83,7 +83,7 @@
     height: 35vh;
     width: 18vw;
     /* background-color: maroon; */
-    /* background-image:url(../../Assets/Himh-2.jpg); */
+    /* background-image:url(../../Assets/H2.jpeg) */
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
