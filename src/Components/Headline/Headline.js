@@ -1,22 +1,26 @@
 import React from 'react'
 import './Headline.css'
 import { AiOutlineArrowRight} from "react-icons/ai";
-
-
+import Head1 from '../../Assets/Himg-1.jpg'
+import Head2 from '../../Assets/Himg1.jpeg'
+import Head3 from '../../Assets/Himh-2.jpg'
 export default function Headline() {
   return (
     <div className='head'>
 
       <div className='div-1'>
         <div className='img-1'>
+        <img src={Head1} alt="img"  />
           <h1></h1>
         </div>
 
         <div className='img-3'>
+        <img src={Head2} alt="img2"  width={250}  />
           <h1></h1>
         </div>
 
         <div className='img-2'>
+        <img src={Head3} alt="img2"   />
           <h1></h1>
         </div>
 
