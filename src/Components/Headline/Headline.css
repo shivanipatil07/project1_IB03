@@ -23,7 +23,7 @@
     height: 30vh;
     width: 15vw;
     /* background-color: maroon; */
-    background-image:url(../assets/Himh-2.jpg);
+    background-image:url(../../Assets/Himh-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -34,7 +34,7 @@
     height: 40vh;
     width: 15vw;
     /* background-color: purple; */
-    background-image: url(../assets/Himg-1.jpg);
+    background-image: url(../../Assets/Himg-1.jpg);
   background-repeat: no-repeat;
     background-size: cover;
 
@@ -46,7 +46,7 @@
     height: 30vh;
     width: 15vw;
     /* background-color: maroon; */
-    background-image:url(../assets/Himg1.jpeg);
+    background-image:url(../../Assets/Himg1.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;

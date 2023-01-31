@@ -45,6 +45,7 @@
     position: absolute;
     top:2%;
     left: 80%;
+
 }
 .social-icon h3{
     width:27px;
@@ -54,6 +55,7 @@
     border-radius: 50%;
     position: relative;
     left:16px;
+
 }
 .social-icon h3:hover{
     color: black;
@@ -187,9 +189,11 @@ a:hover{
     a{
     display:block;
     color: black;
+
     }
     a:hover{
         color:royalblue;
+
     }
     
     

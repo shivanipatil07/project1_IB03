@@ -10,7 +10,7 @@
     height: 100vh;
     width: 36vw;
     /* background-color: mediumvioletred; */
-    background-image: url(../assets/contact-1.jpg);
+    background-image: url(../../Assets/contact-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
