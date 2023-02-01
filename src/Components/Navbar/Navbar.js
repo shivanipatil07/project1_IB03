@@ -15,11 +15,12 @@ function Navbar() {
   return (
     
     <div>
+
   <div className='land-page'>
           <img src={image} alt=""/>
           
         </div>
-    
+
      
      <header>
 			<h3>Website</h3>
